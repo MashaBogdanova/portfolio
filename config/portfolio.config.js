@@ -8,7 +8,8 @@ import shelter from '../public/shelter.png';
 export const portfolio = [
     {
         title: 'E-commerce application',
-        description: 'Customer can sign up, search products using sort and filter features, explore product details and add chosen items to the cart.',
+        description: 'Postcards online store, created with commerce tools. Customer can sign up, search products using ' +
+            'sort and filter features, explore product details, add chosen items to the cart, apply a discount code.',
         technologies: [
             'React JS', 'Redux Toolkit', 'TypeScript', 'Sass', 'Ant Design', 'Commerce tools SDK', 'Jest', 'ESLint', 'Prettier', 'Husky'
         ],
@@ -18,7 +19,7 @@ export const portfolio = [
     },
     {
         title: 'Solimare Grota Solna & Sauna',
-        description: 'SPA with server-side rendering and adaptive landing',
+        description: 'SPA for Warsaw SPA center with server-side rendering and adaptive landing',
         technologies: [
             'NextJS', 'TypeScript', 'Sass', 'ESLint', 'Prettier'
         ],
@@ -28,7 +29,7 @@ export const portfolio = [
     },
     {
         title: 'CSS Selectors Game',
-        description: 'Player can set a level of difficulty, track and reset his progress.',
+        description: 'CSS training game on pure JS. Player can set a level of difficulty, track and reset his progress.',
         technologies: [
             'HTML5', 'Sass', 'JavaScript', 'TypeScript', 'Webpack', 'Jest', 'ESLint',
         ],
@@ -38,7 +39,8 @@ export const portfolio = [
     },
     {
         title: 'Minesweeper Game',
-        description: 'Player can set different levels of difficulty, view previous results, including the number of moves and the time taken.',
+        description: 'Legendary game on pure JS. Player can set different levels of difficulty, ' +
+            'view previous results, including the number of moves and the time taken.',
         technologies: [
             'HTML5', 'Sass', 'JavaScript', 'Webpack',
         ],
@@ -48,7 +50,8 @@ export const portfolio = [
     },
     {
         title: 'Social Network',
-        description: 'User can sign in, add friends, send messages in a chat, edit profile data',
+        description: 'Social Network implemented with React and Redux. User can sign in, add friends, ' +
+            'send messages in a chat, edit profile data',
         technologies: [
             'React JS', 'Redux Toolkit', 'TypeScript', 'Ant Design', 'Axios', 'React Hook Form', 'Jest',
         ],
@@ -58,7 +61,7 @@ export const portfolio = [
     },
     {
         title: 'Shelter',
-        description: 'Pixel Perfect landing',
+        description: 'Pixel Perfect landing on pure JS',
         technologies: [
             'HTML5', 'CSS', 'JavaScript', 'Webpack', 'Figma', 'Perfect Pixel'
         ],

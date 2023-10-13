@@ -42,24 +42,35 @@ export default function Home() {
                     <a href='mailto:mashabogdanoff@gmail.com'>
                         <Image
                             src='https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Circle-icons-mail.svg/2048px-Circle-icons-mail.svg.png'
-                            width={ICON_SIZE} height={ICON_SIZE}/>
+                            width={ICON_SIZE} height={ICON_SIZE}
+                            alt='e-mail'
+                        />
                     </a>
                     <a href='https://t.me/mashabogdanoff'>
                         <Image src='https://www.svgrepo.com//show/271091/telegram.svg'
-                               width={ICON_SIZE} height={ICON_SIZE}/>
+                               width={ICON_SIZE} height={ICON_SIZE}
+                               alt='telegram'
+                        />
                     </a>
                     <a href='https://www.linkedin.com/in/maria-bogdanova-16407a99/'>
                         <Image
                             src='https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/800px-LinkedIn_icon_circle.svg.png'
-                            width={ICON_SIZE} height={ICON_SIZE}/>
+                            width={ICON_SIZE} height={ICON_SIZE}
+                            alt='linkedin'
+                        />
                     </a>
                     <a href='http://github.com/mashabogdanova'>
                         <Image
                             src='https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Github-circle_%28CoreUI_Icons_v1.0.0%29.svg/2048px-Github-circle_%28CoreUI_Icons_v1.0.0%29.svg.png'
-                            width={29} height={29}/>
+                            width={29} height={29}
+                            alt='github'
+                        />
                     </a>
                     <a download="CV Maria Bogdanova Frontend Developer.pdf" href='/cv.pdf'>
-                        <Image src='https://cdn-icons-png.flaticon.com/512/6588/6588143.png' width={ICON_SIZE} height={ICON_SIZE}/>
+                        <Image src='https://cdn-icons-png.flaticon.com/512/6588/6588143.png' width={ICON_SIZE}
+                               height={ICON_SIZE}
+                               alt='cv'
+                        />
                     </a>
                 </article>
             </section>
@@ -68,15 +79,15 @@ export default function Home() {
                 <div className={styles.projects}>
                     {portfolio.map((project) =>
                         <article key={project.title} className={styles.projects__item}>
-                            <h3>{project.title}</h3>
                             <a href={project.deployLink}>
+                                <h3 className={styles.projects__subtitle}>{project.title}</h3>
                                 <Image src={project.picture} alt={project.title}
                                        className={styles.projects__picture}/>
                             </a>
                             <div className={styles.projects__technologies}>{project.technologies.map((item) =>
                                 <div key={item}>{item}</div>)}
                             </div>
-                            <a href={project.codeLink}>Explore code</a>
+                            <a className={styles.projects__codeLink} href={project.codeLink}>Explore code</a>
                             <p>{project.description}</p>
                         </article>)}
                 </div>
