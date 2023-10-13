@@ -9,7 +9,7 @@ export const portfolio = [
     {
         title: 'E-commerce application',
         description: 'Postcards online store, created with commerce tools. Customer can sign up, search products using ' +
-            'sort and filter features, explore product details, add chosen items to the cart, apply a discount code.',
+            'sort and filter features, explore product details, add chosen items to the cart, apply a discount code',
         technologies: [
             'React JS', 'Redux Toolkit', 'TypeScript', 'Sass', 'Ant Design', 'Commerce tools SDK', 'Jest', 'ESLint', 'Prettier', 'Husky'
         ],
@@ -29,7 +29,7 @@ export const portfolio = [
     },
     {
         title: 'CSS Selectors Game',
-        description: 'CSS training game on pure JS. Player can set a level of difficulty, track and reset his progress.',
+        description: 'CSS training game on pure JS. Player can set a level of difficulty, track and reset his progress',
         technologies: [
             'HTML5', 'Sass', 'JavaScript', 'TypeScript', 'Webpack', 'Jest', 'ESLint',
         ],
@@ -40,7 +40,7 @@ export const portfolio = [
     {
         title: 'Minesweeper Game',
         description: 'Legendary game on pure JS. Player can set different levels of difficulty, ' +
-            'view previous results, including the number of moves and the time taken.',
+            'view previous results, including the number of moves and the time taken',
         technologies: [
             'HTML5', 'Sass', 'JavaScript', 'Webpack',
         ],
