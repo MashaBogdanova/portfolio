@@ -15,7 +15,7 @@ export const portfolio = [
         ],
         picture: inMemories,
         deployLink: 'https://inmemoriess.netlify.app',
-        codeLink: 'https://github.com/Nikitatopodin/ecommerce-application',
+        codeLink: 'https://github.com/MashaBogdanova/ecommerce-application',
     },
     {
         title: 'Solimare Grota Solna & Sauna',
