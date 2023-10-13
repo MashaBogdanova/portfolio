@@ -1,95 +1,86 @@
-import Image from 'next/image'
+'use client'
+
 import styles from './page.module.css'
+import {portfolio} from "@/config/portfolio.config";
+import Image from "next/image";
+
+const ICON_SIZE = 27;
 
 export default function Home() {
-  return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  )
+    return (
+        <main className={styles.main}>
+            <section className={styles.top}>
+                <article className={styles.top__icons}>
+                    <Image
+                        src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png'
+                        width={30} height={ICON_SIZE}/>
+                    <Image
+                        src='https://cdn.worldvectorlogo.com/logos/redux.svg'
+                        width={30} height={ICON_SIZE}/>
+                    <Image
+                        src='https://static-00.iconduck.com/assets.00/nextjs-icon-512x512-11yvtwzn.png'
+                        width={ICON_SIZE} height={ICON_SIZE}/>
+                    <Image
+                        src='https://www.svgrepo.com/show/374061/sass.svg'
+                        width={35} height={35}/>
+                    <Image
+                        src='https://cdn-icons-png.flaticon.com/512/919/919832.png'
+                        width={ICON_SIZE} height={ICON_SIZE}/>
+                </article>
+                <article className={styles.top__info}>
+                    <h1 className={styles.top__title}>MARIA BOGDANOVA</h1>
+                    <h4 className={styles.top__subtitle}>Frontend Software Engineer</h4>
+                    <p className={styles.top__summary}>Frontend engineer with over 2 years of expertise in
+                        JavaScript, with mentorship and team work experience.
+                        Proficient in React, Redux, TypeScript, with hands-on
+                        experience in testing React applications. Committed to high
+                        code quality standards and effective communication. I
+                        consider myself a fast learner, hardworking, self-organized
+                        person with a passion for continuous growth and learning.</p>
+                </article>
+                <article className={styles.top__icons}>
+                    <a href='mailto:mashabogdanoff@gmail.com'>
+                        <Image
+                            src='https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Circle-icons-mail.svg/2048px-Circle-icons-mail.svg.png'
+                            width={ICON_SIZE} height={ICON_SIZE}/>
+                    </a>
+                    <a href='https://t.me/mashabogdanoff'>
+                        <Image src='https://www.svgrepo.com//show/271091/telegram.svg'
+                               width={ICON_SIZE} height={ICON_SIZE}/>
+                    </a>
+                    <a href='https://www.linkedin.com/in/maria-bogdanova-16407a99/'>
+                        <Image
+                            src='https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/800px-LinkedIn_icon_circle.svg.png'
+                            width={ICON_SIZE} height={ICON_SIZE}/>
+                    </a>
+                    <a href='http://github.com/mashabogdanova'>
+                        <Image
+                            src='https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Github-circle_%28CoreUI_Icons_v1.0.0%29.svg/2048px-Github-circle_%28CoreUI_Icons_v1.0.0%29.svg.png'
+                            width={29} height={29}/>
+                    </a>
+                    <a download="CV Maria Bogdanova Frontend Developer.pdf" href='/cv.pdf'>
+                        <Image src='https://cdn-icons-png.flaticon.com/512/6588/6588143.png' width={ICON_SIZE} height={ICON_SIZE}/>
+                    </a>
+                </article>
+            </section>
+            <section>
+                <h2 className={styles.projects__title}>MY PORTFOLIO</h2>
+                <div className={styles.projects}>
+                    {portfolio.map((project) =>
+                        <article key={project.title} className={styles.projects__item}>
+                            <h3>{project.title}</h3>
+                            <a href={project.deployLink}>
+                                <Image src={project.picture} alt={project.title}
+                                       className={styles.projects__picture}/>
+                            </a>
+                            <div className={styles.projects__technologies}>{project.technologies.map((item) =>
+                                <div key={item}>{item}</div>)}
+                            </div>
+                            <a href={project.codeLink}>Explore code</a>
+                            <p>{project.description}</p>
+                        </article>)}
+                </div>
+            </section>
+        </main>
+    )
 }

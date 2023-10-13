@@ -1,14 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d270244a-0fbb-451d-b0b2-d0555219dfae" name="Changes" comment="" />
+    <list default="true" id="d270244a-0fbb-451d-b0b2-d0555219dfae" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/config/portfolio.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css-selectors-game.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/cv.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/in-memories.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/minesweeper-game.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/shelter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/social-network.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/solimare.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/my-app" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2WfKMx8IykFbvoaYKfy4ZzglyUJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -23,12 +50,22 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/mariabogdanova/WebstormProjects/portfolio/assets",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/public/downloads" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -41,6 +78,12 @@
       <option name="presentableId" value="Default" />
       <updated>1697118149879</updated>
       <workItem from="1697118150921" duration="76000" />
+      <workItem from="1697118307935" duration="1033000" />
+      <workItem from="1697119346055" duration="7076000" />
+      <workItem from="1697128430148" duration="1228000" />
+      <workItem from="1697143054968" duration="1022000" />
+      <workItem from="1697182628271" duration="7301000" />
+      <workItem from="1697198658454" duration="3425000" />
     </task>
     <servers />
   </component>
