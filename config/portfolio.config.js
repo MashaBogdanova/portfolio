@@ -61,7 +61,7 @@ export const portfolio = [
     },
     {
         title: 'Shelter',
-        description: 'Pixel Perfect landing on pure JS',
+        description: 'Pixel Perfect adaptive landing on pure JS',
         technologies: [
             'HTML5', 'CSS', 'JavaScript', 'Webpack', 'Figma', 'Perfect Pixel'
         ],
