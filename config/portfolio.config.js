@@ -11,7 +11,7 @@ export const portfolio = [
         description: 'Postcards online store, created with Commercetools. Customer can sign up, search products using ' +
             'sort and filter features, explore product details, add chosen items to the cart, apply a discount code',
         technologies: [
-            'React JS', 'Redux Toolkit', 'TypeScript', 'Sass', 'Ant Design', 'Commerce tools SDK', 'Jest', 'ESLint', 'Prettier', 'Husky'
+            'React JS', 'Redux Toolkit', 'TypeScript', 'Sass', 'Ant Design', 'Commercetools', 'Jest', 'ESLint', 'Prettier', 'Husky', 'Jira'
         ],
         picture: inMemories,
         deployLink: 'https://in-memories-shop.netlify.app/catalog',
@@ -31,7 +31,7 @@ export const portfolio = [
         title: 'CSS Selectors Game',
         description: 'CSS training game on pure JS. Player can set a level of difficulty, track and reset his progress',
         technologies: [
-            'HTML5', 'Sass', 'JavaScript', 'TypeScript', 'Webpack', 'Jest', 'ESLint',
+            'HTML5', 'Sass', 'TypeScript', 'Webpack', 'Jest', 'ESLint',
         ],
         picture: cssSelectorsGame,
         deployLink: 'https://rolling-scopes-school.github.io/mashabogdanova-JSFE2023Q1/css-selectors/dist/',
@@ -51,7 +51,7 @@ export const portfolio = [
     {
         title: 'Social Network',
         description: 'Social Network implemented with React and Redux. User can sign in, add friends, ' +
-            'send messages in a chat, edit profile data',
+            'send message in a chat, edit profile data',
         technologies: [
             'React JS', 'Redux Toolkit', 'TypeScript', 'Ant Design', 'Axios', 'React Hook Form', 'Jest',
         ],
@@ -61,12 +61,22 @@ export const portfolio = [
     },
     {
         title: 'Shelter',
-        description: 'Pixel Perfect adaptive landing on pure JS',
+        description: 'Pixel Perfect adaptive landing',
         technologies: [
-            'HTML5', 'CSS', 'JavaScript', 'Webpack', 'Figma', 'Perfect Pixel'
+            'HTML5', 'CSS', 'JavaScript', 'Webpack', 'Figma', 'Pixel Perfect'
         ],
         picture: shelter,
         deployLink: 'https://cheery-queijadas-ccf690.netlify.app/shelter/src/sass/pages/main/#',
         codeLink: 'https://github.com/MashaBogdanova/pet-projects/tree/shelter-part3/',
+    },
+    {
+        title: 'Planner-5D',
+        description: 'Pixel Perfect landing with Sass',
+        technologies: [
+            'HTML5', 'Sass', 'Pixel Perfect', 'ESLint', 'Prettier', 'Husky'
+        ],
+        picture: shelter,
+        deployLink: 'https://planner-5d.netlify.app/',
+        codeLink: 'https://github.com/MashaBogdanova/planner-5d',
     },
 ]
