@@ -4,6 +4,7 @@ import socialNetwork from '../public/social-network.png';
 import inMemories from '../public/in-memories.png';
 import solimare from '../public/solimare.png';
 import shelter from '../public/shelter.png';
+import planner from '../public/planer-5d.png';
 
 export const portfolio = [
     {
@@ -75,7 +76,7 @@ export const portfolio = [
         technologies: [
             'HTML5', 'Sass', 'Pixel Perfect', 'ESLint', 'Prettier', 'Husky'
         ],
-        picture: shelter,
+        picture: planner,
         deployLink: 'https://planner-5d.netlify.app/',
         codeLink: 'https://github.com/MashaBogdanova/planner-5d',
     },
