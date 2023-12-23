@@ -8,18 +8,18 @@ import shelter from '../public/shelter.png';
 export const portfolio = [
     {
         title: 'E-commerce application',
-        description: 'Postcards online store, created with commerce tools. Customer can sign up, search products using ' +
+        description: 'Postcards online store, created with Commercetools. Customer can sign up, search products using ' +
             'sort and filter features, explore product details, add chosen items to the cart, apply a discount code',
         technologies: [
             'React JS', 'Redux Toolkit', 'TypeScript', 'Sass', 'Ant Design', 'Commerce tools SDK', 'Jest', 'ESLint', 'Prettier', 'Husky'
         ],
         picture: inMemories,
-        deployLink: 'https://inmemoriess.netlify.app',
+        deployLink: 'https://in-memories-shop.netlify.app/catalog',
         codeLink: 'https://github.com/MashaBogdanova/ecommerce-application',
     },
     {
         title: 'Solimare Grota Solna & Sauna',
-        description: 'SPA for Warsaw SPA center with server-side rendering and adaptive landing',
+        description: 'Website for Warsaw SPA center with server-side rendering and adaptive landing',
         technologies: [
             'NextJS', 'TypeScript', 'Sass', 'ESLint', 'Prettier'
         ],
