@@ -15,7 +15,7 @@ export const portfolio = [
             'React JS', 'Redux Toolkit', 'TypeScript', 'Sass', 'Ant Design', 'Commercetools', 'Jest', 'ESLint', 'Prettier', 'Husky', 'Jira'
         ],
         picture: inMemories,
-        deployLink: 'https://in-memories-shop.netlify.app/catalog',
+        deployLink: 'https://in-memories-shop.netlify.app',
         codeLink: 'https://github.com/MashaBogdanova/ecommerce-application',
     },
     {
