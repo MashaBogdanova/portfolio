@@ -5,10 +5,22 @@ import inMemories from '../public/in-memories.png';
 import solimare from '../public/solimare.png';
 import shelter from '../public/shelter.png';
 import planner from '../public/planer-5d.png';
+import graphiql from '../public/graphiql.png';
 
 export const portfolio = [
     {
-        title: 'E-commerce application',
+        title: 'GraphiQL',
+        description: 'GraphQL playground with additional features such as authentication, authorization, and the ability to work with\n' +
+            'any user-specified open GraphQL endpoint',
+        technologies: [
+            'NextJS', 'TypeScript', 'Sass', 'GraphQL', 'Firebase', 'Vitest', 'ESLint', 'Prettier', 'Husky', 'Jira', 'Figma'
+        ],
+        picture: graphiql,
+        deployLink: 'https://graphiql-editor-dev.netlify.app',
+        codeLink: 'https://github.com/MashaBogdanova/graphiql',
+    },
+    {
+        title: 'E-commerce store',
         description: 'Postcards online store, created with Commercetools. Customer can sign up, search products using ' +
             'sort and filter features, explore product details, add chosen items to the cart, apply a discount code',
         technologies: [
@@ -39,7 +51,7 @@ export const portfolio = [
         codeLink: 'https://github.com/MashaBogdanova/pet-projects/tree/css-selectors',
     },
     {
-        title: 'Minesweeper Game',
+        title: 'Minesweeper',
         description: 'Legendary game on pure JS. Player can set different levels of difficulty, ' +
             'view previous results, including the number of moves and the time taken',
         technologies: [
