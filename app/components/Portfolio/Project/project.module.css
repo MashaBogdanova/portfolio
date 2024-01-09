@@ -1,9 +1,8 @@
 .project {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     gap: 0.5rem;
-    max-width: 27%;
+    width: calc(33.33% - 20px);
 }
 
 .project__title {

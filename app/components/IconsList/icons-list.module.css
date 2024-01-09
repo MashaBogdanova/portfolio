@@ -1,0 +1,36 @@
+.iconsList {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin: auto;
+}
+
+.iconsList_contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 30px 110px 20px;
+}
+
+.iconsList__icon {
+    width: 55px;
+    height: auto;
+}
+
+.iconsList__icon_contacts {
+    width: 35px;
+    height: auto;
+}
+
+.iconsList__icon:hover, .iconsList__icon_contacts:hover {
+    animation: zoom 500ms forwards;
+}
+
+@keyframes zoom {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+}

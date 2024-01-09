@@ -1,10 +1,27 @@
 .description {
-    max-width: 45vw;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    width: 100%;
+    padding: 0 90px;
+}
+
+.description__photo {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+.description__text {
+    width: 40vw;
+    padding-top: 10px;
 }
 
 .description__title {
     font-size: 2.3em;
     text-align: center;
+    color: var(--color-secondary);
+    /*color: var(--color-additional);*/
 }
 
 .description__subtitle {
@@ -12,6 +29,7 @@
     margin-bottom: 2em;
     letter-spacing: 6.5px;
     text-align: center;
+    color: var(--color-secondary);
 }
 
 .description__summary {
