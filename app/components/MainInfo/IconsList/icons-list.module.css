@@ -1,0 +1,22 @@
+.iconsList {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.iconsList__icon {
+    width: 30px;
+    height: auto;
+}
+
+.iconsList__icon:hover {
+    animation: zoom 500ms;
+}
+
+@keyframes zoom {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.02);
+    }
+}

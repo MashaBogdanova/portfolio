@@ -1,0 +1,39 @@
+.description {
+    max-width: 45vw;
+}
+
+.description__title {
+    font-size: 2.3em;
+    text-align: center;
+}
+
+.description__subtitle {
+    padding-left: 1px;
+    margin-bottom: 2em;
+    letter-spacing: 6.5px;
+    text-align: center;
+}
+
+.description__summary {
+    text-align: justify;
+}
+
+@media screen and (max-width: var(--screen-width-m)) {
+    .description {
+        max-width: 70vw;
+    }
+}
+
+@media screen and (max-width: var(--screen-width-s)) {
+    .description {
+        max-width: 90vw;
+    }
+
+    .description__title {
+        font-size: 3rem;
+    }
+
+    .description__subtitle {
+        letter-spacing: 4.5px;
+    }
+}

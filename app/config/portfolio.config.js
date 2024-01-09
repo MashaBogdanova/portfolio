@@ -1,13 +1,102 @@
-import cssSelectorsGame from '../public/css-selectors-game.png';
-import minesweeperGame from '../public/minesweeper-game.png';
-import socialNetwork from '../public/social-network.png';
-import inMemories from '../public/in-memories.png';
-import solimare from '../public/solimare.png';
-import shelter from '../public/shelter.png';
-import planner from '../public/planer-5d.png';
-import graphiql from '../public/graphiql.png';
+import cssSelectorsGame from '../../public/projejects-screenshots/css-selectors-game.png';
+import minesweeperGame from '../../public/projejects-screenshots/minesweeper-game.png';
+import socialNetwork from '../../public/projejects-screenshots/social-network.png';
+import inMemories from '../../public/projejects-screenshots/in-memories.png';
+import solimare from '../../public/projejects-screenshots/solimare.png';
+import shelter from '../../public/projejects-screenshots/shelter.png';
+import planner from '../../public/projejects-screenshots/planer-5d.png';
+import graphiql from '../../public/projejects-screenshots/graphiql.png';
+import react from '../../public/technologies-icons/react.png';
+import next from '../../public/technologies-icons/nextjs.png';
+import redux from '../../public/technologies-icons/redux.png';
+import sass from '../../public/technologies-icons/sass.png';
+import typescript from '../../public/technologies-icons/typescript.png';
+import email from '../../public/contacts-icons/email.png';
+import cv from '../../public/contacts-icons/cv.png';
+import github from '../../public/contacts-icons/github.png';
+import linkedin from '../../public/contacts-icons/linkedin.png';
+import telegram from '../../public/contacts-icons/telegram.png';
+// import downloadCV from '../../public/cv.pdf';
 
+export const mainInfo = {
+    name: 'MARIA BOGDANOVA',
+    speciality: 'Frontend Software Engineer',
+    summary: 'Frontend engineer with over 2 years of expertise in\n' +
+        'JavaScript, with mentorship and team work experience.\n' +
+        'Proficient in React, Redux, TypeScript, with hands-on\n' +
+        'experience in testing React applications. Committed to high\n' +
+        'code quality standards and effective communication. I\n' +
+        'consider myself a fast learner, hardworking, self-organized\n' +
+        'person with a passion for continuous growth and learning.'
+}
+export const technologiesList = [
+    {
+        title: 'NextJS',
+        link: 'https://nextjs.org/',
+        icon: next
+    },
+    {
+        title: 'React',
+        link: 'https://react.dev/',
+        icon: react
+    },
+    {
+        title: 'Redux',
+        link: 'https://redux.js.org/',
+        icon: redux
+    },
+    {
+        title: 'TypeScript',
+        link: 'https://www.typescriptlang.org/',
+        icon: typescript
+    },
+    {
+        title: 'Sass',
+        link: 'https://sass-lang.com/',
+        icon: sass
+    },
+
+];
+export const contactsList = [
+    {
+        title: 'E-mail',
+        link: 'mailto:mashabogdanoff@gmail.com',
+        icon: email
+    },
+    {
+        title: 'Telegram',
+        link: 'https://t.me/mashabogdanoff',
+        icon: telegram
+    },
+    {
+        title: 'GitHub',
+        link: 'http://github.com/mashabogdanova',
+        icon: github
+    },
+    {
+        title: 'LinkedIn',
+        link: 'https://www.linkedin.com/in/maria-bogdanova-16407a99/',
+        icon: linkedin
+    },
+    {
+        title: 'CV',
+        link: '/cv.pdf',
+        icon: cv,
+        download: 'CV Maria Bogdanova Frontend Developer.pdf'
+    },
+
+];
 export const portfolio = [
+    {
+        title: 'Grota Solna Solimare',
+        description: 'Website for Warsaw SPA center with server-side rendering and adaptive landing',
+        technologies: [
+            'NextJS', 'TypeScript', 'Sass', 'ESLint', 'Prettier'
+        ],
+        picture: solimare,
+        deployLink: 'https://solimare.pl/',
+        codeLink: 'https://github.com/MashaBogdanova/solimare',
+    },
     {
         title: 'GraphiQL',
         description: 'GraphQL playground with additional features such as authentication, authorization, and the ability to work with\n' +
@@ -29,16 +118,6 @@ export const portfolio = [
         picture: inMemories,
         deployLink: 'https://in-memories-shop.netlify.app',
         codeLink: 'https://github.com/MashaBogdanova/ecommerce-application',
-    },
-    {
-        title: 'Solimare Grota Solna & Sauna',
-        description: 'Website for Warsaw SPA center with server-side rendering and adaptive landing',
-        technologies: [
-            'NextJS', 'TypeScript', 'Sass', 'ESLint', 'Prettier'
-        ],
-        picture: solimare,
-        deployLink: 'https://solimare.pl/',
-        codeLink: 'https://github.com/MashaBogdanova/solimare',
     },
     {
         title: 'CSS Selectors Game',

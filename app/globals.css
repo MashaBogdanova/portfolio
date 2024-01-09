@@ -1,6 +1,9 @@
 :root {
   --max-width: 1100px;
 
+  --screen-width-m: 991px;
+  --screen-width-s: 575px;
+
   --color-primary: rgb(83, 63, 217);
   --color-secondary: #dfd0d3;
   --color-dark: #3f3f3f;
@@ -32,4 +35,8 @@ h1, h2, h3, h4 {
 a {
   color: var(--color-primary);
   text-decoration: none;
+}
+
+ul {
+  list-style: none;
 }
