@@ -4,10 +4,10 @@
   --screen-width-m: 991px;
   --screen-width-s: 575px;
 
-  --color-primary: rgb(83, 63, 217);
+  --color-primary: #533fd9ff;
   --color-secondary: #dfd0d3;
   --color-additional: #d65d73;
-  --color-light: rgb(240 236 240);
+  --color-light: #f0ecf0ff;
   --color-dark: #3f3f3f;
 }
 
@@ -19,8 +19,8 @@
 
 html,
 body {
-  max-width: 100vw;
   overflow-x: hidden;
+  font-size: 10px;
   background: var(--color-primary);
 }
 
@@ -38,11 +38,21 @@ h4 {
   color: var(--color-primary);
 }
 
-h2 {
-  margin-bottom: 40px;
-  letter-spacing: 10px;
+h1 {
+  font-size: 3.7rem;
   text-align: center;
-  /*color: var(--color-additional);*/
+  color: var(--color-secondary);
+}
+
+h2 {
+  margin-bottom: 4rem;
+  font-size: 2.4rem;
+  letter-spacing: 1rem;
+  text-align: center;
+}
+
+p {
+  font-size: 1.6rem;
 }
 
 a {

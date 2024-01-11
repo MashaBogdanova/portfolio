@@ -6,8 +6,8 @@
 
     display: flex;
     justify-content: space-between;
-    height: 530px;
-    padding: 50px 0;
+    height: 53rem;
+    padding: 5rem 0;
 
     color: var(--color-secondary);
     background-color: var(--color-primary);
@@ -20,7 +20,7 @@
     .mainInfo {
         flex-direction: column;
         align-items: center;
-        gap: 2em;
+        gap: 3rem;
     }
 }
 

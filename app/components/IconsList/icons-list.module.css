@@ -1,7 +1,7 @@
 .iconsList {
     display: flex;
     justify-content: space-between;
-    width: 600px;
+    width: 60rem;
     margin: auto;
 }
 
@@ -9,16 +9,16 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 20px 30px 120px 20px;
+    padding: 2rem 3rem 12rem 2rem;
 }
 
 .iconsList__icon {
-    width: 55px;
+    width: 5.5rem;
     height: auto;
 }
 
 .iconsList__icon_contacts {
-    width: 35px;
+    width: 3.5rem;
     height: auto;
 }
 

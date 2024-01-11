@@ -1,11 +1,11 @@
 .portfolio {
-    margin-top: 50px;
+    margin-top: 5rem;
 }
 
 .portfolio__list {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 3rem;
     animation: fadeIn 1s ease-out;
 }
 
