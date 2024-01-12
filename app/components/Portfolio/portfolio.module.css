@@ -9,17 +9,22 @@
   animation: fadeIn 1s ease-out;
 }
 
-@media screen and (max-width: var(--screen-width-s)) {
-  .portfolio {
-    justify-content: center;
-  }
-}
-
 @keyframes fadeIn {
   0% {
     opacity: 0;
   }
   100% {
     opacity: 1;
+  }
+}
+
+@media (max-width: 600px) {
+  .portfolio {
+    margin: 0;
+  }
+
+  .portfolio__list {
+    display: flex;
+    padding: 0 1rem 2rem;
   }
 }

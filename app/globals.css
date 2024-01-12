@@ -1,14 +1,11 @@
 :root {
-  --content-width: 1150px;
-
-  --screen-width-m: 991px;
-  --screen-width-s: 575px;
-
   --color-primary: #533fd9ff;
   --color-secondary: #dfd0d3;
   --color-additional: #d65d73;
   --color-light: #f0ecf0ff;
   --color-dark: #3f3f3f;
+
+  --content-padding: 5rem;
 }
 
 * {
@@ -62,4 +59,11 @@ a {
 
 ul {
   list-style: none;
+}
+
+@media (max-width: 600px) {
+  h2 {
+    font-size: 2rem;
+    letter-spacing: 0.7rem;
+  }
 }

@@ -47,18 +47,6 @@
   animation: zoom 500ms;
 }
 
-@media screen and (max-width: var(--screen-width-m)) {
-  .project {
-    max-width: 45%;
-  }
-}
-
-@media screen and (max-width: var(--screen-width-s)) {
-  .project {
-    max-width: 90%;
-  }
-}
-
 @keyframes zoom {
   0%,
   100% {
@@ -66,5 +54,11 @@
   }
   50% {
     transform: scale(1.02);
+  }
+}
+
+@media (max-width: 600px) {
+  .project {
+    width: unset;
   }
 }

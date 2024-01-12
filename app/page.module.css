@@ -1,5 +1,14 @@
 .main {
-  max-width: var(--content-width);
-  min-height: 100vh;
-  margin: 0 auto;
+    padding: 56rem var(--content-padding) 7rem;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+        padding: 0 0 2rem;
+    }
 }
