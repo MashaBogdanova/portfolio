@@ -1,36 +1,38 @@
 .iconsList {
-    display: flex;
-    justify-content: space-between;
-    width: 60rem;
-    margin: auto;
+  display: flex;
+  justify-content: space-between;
+  width: 60rem;
+  margin: auto;
 }
 
 .iconsList_contacts {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 2rem 3rem 12rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem 3rem 12rem 2rem;
 }
 
 .iconsList__icon {
-    width: 5.5rem;
-    height: auto;
+  width: 5.5rem;
+  height: auto;
 }
 
 .iconsList__icon_contacts {
-    width: 3.5rem;
-    height: auto;
+  width: 3.5rem;
+  height: auto;
 }
 
-.iconsList__icon:hover, .iconsList__icon_contacts:hover {
-    animation: zoom 500ms forwards;
+.iconsList__icon:hover,
+.iconsList__icon_contacts:hover {
+  animation: zoom 500ms forwards;
 }
 
 @keyframes zoom {
-    0%, 100% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.2);
-    }
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
 }

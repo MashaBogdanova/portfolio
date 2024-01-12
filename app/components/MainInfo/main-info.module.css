@@ -1,36 +1,36 @@
 .mainInfo {
-    position: absolute;
-    top:0;
-    left: 0;
-    right: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
 
-    display: flex;
-    justify-content: space-between;
-    height: 53rem;
-    padding: 5rem 0;
+  display: flex;
+  justify-content: space-between;
+  height: 53rem;
+  padding: 5rem 0;
 
-    color: var(--color-secondary);
-    background-color: var(--color-primary);
-    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
-    animation: slideIn 1s;
-    animation-timing-function: ease-out;
+  color: var(--color-secondary);
+  background-color: var(--color-primary);
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  animation: slideIn 1s;
+  animation-timing-function: ease-out;
 }
 
 @media screen and (max-width: var(--screen-width-m)) {
-    .mainInfo {
-        flex-direction: column;
-        align-items: center;
-        gap: 3rem;
-    }
+  .mainInfo {
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
 }
 
 @keyframes slideIn {
-    from {
-        position: absolute;
-        top: -30vh;
-    }
-    to {
-        position: absolute;
-        top: 0;
-    }
+  from {
+    position: absolute;
+    top: -30vh;
+  }
+  to {
+    position: absolute;
+    top: 0;
+  }
 }

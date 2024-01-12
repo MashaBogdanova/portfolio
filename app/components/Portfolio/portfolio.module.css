@@ -1,25 +1,25 @@
 .portfolio {
-    margin-top: 5rem;
+  margin-top: 5rem;
 }
 
 .portfolio__list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 3rem;
-    animation: fadeIn 1s ease-out;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  animation: fadeIn 1s ease-out;
 }
 
 @media screen and (max-width: var(--screen-width-s)) {
-    .portfolio {
-        justify-content: center;
-    }
+  .portfolio {
+    justify-content: center;
+  }
 }
 
 @keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
