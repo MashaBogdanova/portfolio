@@ -1,5 +1,5 @@
-import {portfolio} from "@/app/config/portfolio.config";
-import Project from "@/app/components/Portfolio/Project";
+import {portfolio} from "/app/config/portfolio.config";
+import Project from "/app/components/Portfolio/Project";
 import styles from './portfolio.module.css';
 
 function Portfolio() {
@@ -9,7 +9,8 @@ function Portfolio() {
             <ul className={styles.portfolio__list}>
                 {portfolio.map((project) => <Project project={project} key={project.title}/>)}
             </ul>
-        </section>);
+        </section>
+    );
 }
 
 export default Portfolio;

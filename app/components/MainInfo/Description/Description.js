@@ -1,5 +1,5 @@
-import {mainInfo} from "@/app/config/portfolio.config";
 import styles from './description.module.css';
+import {mainInfo} from "/app/config/portfolio.config";
 import Image from "next/image";
 
 function Description() {

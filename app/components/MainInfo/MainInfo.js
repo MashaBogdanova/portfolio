@@ -1,10 +1,7 @@
 import styles from './main-info.module.css';
-import Image from "next/image";
-import Description from "@/app/components/MainInfo/Description/Description";
+import Description from "/app/components/MainInfo/Description/Description";
 import IconsList from "app/components/IconsList";
-import iconsList from "app/components/IconsList";
-import {contactsList, technologiesList} from "@/app/config/portfolio.config";
-import Link from "next/link";
+import {contactsList} from "/app/config/portfolio.config";
 
 function MainInfo() {
     return (

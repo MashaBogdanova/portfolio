@@ -1,5 +1,5 @@
 import IconsList from "app/components/IconsList";
-import {technologiesList} from "@/app/config/portfolio.config";
+import {technologiesList} from "/app/config/portfolio.config";
 import styles from './technologies.module.css';
 
 function Technologies() {
