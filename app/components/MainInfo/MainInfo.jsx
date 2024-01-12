@@ -6,8 +6,10 @@ import { contactsList } from '/app/config/portfolio.config';
 function MainInfo() {
   return (
     <section className={styles.mainInfo}>
-      <Description />
-      <IconsList list={contactsList} type="contacts" />
+      <div className={styles.mainInfo__content}>
+        <Description />
+        <IconsList list={contactsList} type='contacts' />
+      </div>
     </section>
   );
 }

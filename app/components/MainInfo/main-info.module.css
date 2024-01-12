@@ -4,16 +4,21 @@
   left: 0;
   right: 0;
 
-  display: flex;
-  justify-content: space-between;
   height: 53rem;
-  padding: 5rem 0;
 
   color: var(--color-secondary);
   background-color: var(--color-primary);
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
   animation: slideIn 1s;
   animation-timing-function: ease-out;
+}
+
+.mainInfo__content {
+  display: flex;
+  justify-content: space-between;
+  gap: 11rem;
+  max-width: var(--content-width);
+  margin: auto;
 }
 
 @media screen and (max-width: var(--screen-width-m)) {
