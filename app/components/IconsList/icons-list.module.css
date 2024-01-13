@@ -37,20 +37,34 @@
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
     .iconsList {
         width: 100%;
         justify-content: space-around;
     }
 
     .iconsList_contacts {
+        padding: 1.2rem 0;
+    }
+}
+
+@media (max-width: 800px) {
+    .iconsList {
+        justify-content: space-between;
+    }
+
+    .iconsList_contacts {
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
         width: 100%;
         padding: 1rem;
     }
 
+    .iconsList__icon_contacts {
+        width: 4.5rem;
+    }
+
     .iconsList__icon {
-        width: 3.5rem;
+        width: 4.5rem;
     }
 }

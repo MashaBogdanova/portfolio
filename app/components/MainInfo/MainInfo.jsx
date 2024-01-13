@@ -14,7 +14,7 @@ function MainInfo() {
           alt="Maria Bogdanova"
         />
         <Description />
-        <IconsList list={contactsList} type='contacts' />
+        <IconsList list={contactsList} type="contacts" />
       </div>
     </section>
   );

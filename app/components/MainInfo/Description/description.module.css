@@ -1,22 +1,28 @@
 .description {
-    width: 40vw;
+  width: 40vw;
 }
 
 .description__subtitle {
-    padding-left: 1rem;
-    margin-bottom: 3rem;
-    font-size: 1.62rem;
-    letter-spacing: 0.65rem;
-    text-align: center;
-    color: var(--color-secondary);
+  padding-left: 1rem;
+  margin-bottom: 3rem;
 }
 
 .description__summary {
-    text-align: justify;
+  text-align: justify;
 }
 
-@media (max-width: 600px) {
-    .description {
-        width: 100%;
-    }
+@media (max-width: 1000px) {
+  .description {
+    width: fit-content;
+  }
+
+  .description__subtitle {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .description {
+    width: 100%;
+  }
 }

@@ -1,69 +1,102 @@
 :root {
-  --color-primary: #533fd9ff;
-  --color-secondary: #dfd0d3;
-  --color-additional: #d65d73;
-  --color-light: #f0ecf0ff;
-  --color-dark: #3f3f3f;
+    --color-primary: #533fd9ff;
+    --color-secondary: #dfd0d3;
+    --color-additional: #d65d73;
+    --color-light: #f0ecf0ff;
+    --color-dark: #3f3f3f;
 
-  --content-padding: 5rem;
+    --content-padding: 5rem;
 }
 
 * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 html,
 body {
-  overflow-x: hidden;
-  font-size: 10px;
-  background: var(--color-primary);
+    overflow-x: hidden;
+    font-size: 10px;
+    background: var(--color-primary);
 }
 
 body {
-  font-family: var(--text-font);
-  color: var(--color-dark);
-  background: var(--color-secondary);
+    font-family: var(--text-font);
+    color: var(--color-dark);
+    background: var(--color-secondary);
 }
 
 h1,
 h2,
 h3,
 h4 {
-  font-family: var(--title-font);
-  color: var(--color-primary);
+    font-family: var(--title-font);
+    color: var(--color-primary);
 }
 
 h1 {
-  font-size: 3.7rem;
-  text-align: center;
-  color: var(--color-secondary);
+    font-size: 3.7rem;
+    text-align: center;
+    color: var(--color-secondary);
 }
 
 h2 {
-  margin-bottom: 4rem;
-  font-size: 2.4rem;
-  letter-spacing: 1rem;
-  text-align: center;
+    margin-bottom: 4rem;
+    font-size: 2.4rem;
+    letter-spacing: 1rem;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+h4 {
+    font-size: 1.62rem;
+    letter-spacing: 0.65rem;
+    text-align: center;
+    color: var(--color-secondary);
 }
 
 p {
-  font-size: 1.6rem;
+    font-size: 1.6rem;
 }
 
 a {
-  color: var(--color-primary);
-  text-decoration: none;
+    color: var(--color-primary);
+    text-decoration: none;
 }
 
 ul {
-  list-style: none;
+    list-style: none;
 }
 
-@media (max-width: 600px) {
-  h2 {
-    font-size: 2rem;
-    letter-spacing: 0.7rem;
-  }
+@media (max-width: 1000px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    h4 {
+        letter-spacing: 0.5rem;
+    }
+}
+
+@media (max-width: 800px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+        letter-spacing: 0.5rem;
+    }
+
+    h3 {
+        font-size: 2.4rem;
+    }
+
+    h4 {
+        letter-spacing: 0.35rem;
+    }
 }

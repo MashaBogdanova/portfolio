@@ -6,7 +6,6 @@
 }
 
 .project__title {
-  font-size: 1.8rem;
   margin-bottom: 1.5rem;
 }
 
@@ -57,7 +56,13 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
+  .project {
+    width: calc(50% - 1.5rem);
+  }
+}
+
+@media (max-width: 800px) {
   .project {
     width: unset;
   }
