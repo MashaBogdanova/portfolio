@@ -93,7 +93,7 @@ export const portfolio = [
   {
     title: 'Grota Solna Solimare',
     description:
-      'Website for Warsaw SPA center with server-side rendering and adaptive landing',
+      'Website for Warsaw SPA center',
     technologies: ['NextJS', 'TypeScript', 'Sass', 'ESLint', 'Prettier'],
     picture: solimare,
     deployLink: 'https://solimare.pl/',
