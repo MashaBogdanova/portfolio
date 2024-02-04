@@ -7,6 +7,7 @@
 
 .project__title {
   margin-bottom: 1.5rem;
+  transition: 500ms ease-out;
 }
 
 .project__picture {
@@ -14,6 +15,7 @@
   height: auto;
   box-shadow: 0 0.4rem 0.6rem rgba(0, 0, 0, 0.1);
   border-radius: 0.5rem;
+  transition: 500ms ease-out;
 }
 
 .project__technologiesList {
@@ -37,23 +39,14 @@
   color: var(--color-secondary);
   background-color: var(--color-primary);
   border-radius: 1.8rem;
+  transition: 500ms ease-out;
 }
 
 .project__picture:hover,
 .project__title:hover,
 .project__codeLink:hover {
   cursor: pointer;
-  animation: zoom 500ms;
-}
-
-@keyframes zoom {
-  0%,
-  100% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.02);
-  }
+  transform: scale(1.02);
 }
 
 @media (max-width: 1000px) {
