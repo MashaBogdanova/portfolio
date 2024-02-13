@@ -5,7 +5,7 @@ import Link from 'next/link';
 function Project({ project }) {
   return (
     <article className={styles.project}>
-      <Link href={project.deployLink}>
+      <Link href={project.deployLink} target="_blank">
         <h3 className={styles.project__title}>{project.title}</h3>
         <Image
           className={styles.project__picture}
@@ -21,9 +21,16 @@ function Project({ project }) {
         ))}
       </ul>
       <p>{project.description}</p>
-      <Link className={styles.project__codeLink} href={project.codeLink}>
-        Explore code
+      <div className={styles.project__buttonsContainer}>
+      <Link className={styles.project__button} href={project.codeLink} target="_blank">
+        GitHub
       </Link>
+      {project.figmaLink && (
+        <Link className={styles.project__button} href={project.figmaLink} target="_blank">
+          Figma
+        </Link>
+      )}
+      </div>
     </article>
   );
 }

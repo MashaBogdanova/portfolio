@@ -120,6 +120,7 @@ export const portfolio = [
     picture: graphiql,
     deployLink: 'https://graphiql-editor-dev.netlify.app',
     codeLink: 'https://github.com/MashaBogdanova/graphiql',
+    figmaLink: 'https://www.figma.com/file/scpWoZcFi4iT7i5eCBK0T8/GraphiQL?type=design&mode=design'
   },
   {
     title: 'E-commerce store',
@@ -199,6 +200,7 @@ export const portfolio = [
       'https://cheery-queijadas-ccf690.netlify.app/shelter/src/sass/pages/main/#',
     codeLink:
       'https://github.com/MashaBogdanova/pet-projects/tree/shelter-part3/',
+    figmaLink: 'https://www.figma.com/file/Yk6EnbY63FyG2PJTFkJDMh/shelter?type=design&node-id=94-43&mode=design'
   },
   {
     title: 'Planner-5D',
