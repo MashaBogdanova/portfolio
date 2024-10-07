@@ -22,11 +22,12 @@ import mainPhoto from '../../public/main-photo.jpg';
 export const mainInfo = {
   name: 'MARIA BOGDANOVA',
   speciality: 'Frontend Software Engineer',
-  summary:
-    'Proactive frontend engineer with expertise in JavaScript, with mentorship and team work ' +
-    'experience. Proficient in React, Redux, Next.js, TypeScript, with hands-on experience in testing. ' +
-    'Committed to high code quality standards and effective communication. I consider myself a fast ' +
-    'learner, hardworking, self-organized person with a passion for continuous growth and learning.',
+  summary: 'I’m a proactive frontend developer with expertise in\n' +
+    'JavaScript, React, Redux, Next.js, and TypeScript.\n' +
+    'Experienced in testing, I’m dedicated to writing highquality code. I enjoy working in collaborative teams and\n' +
+    'have experience in teamwork and mentorship. I’m a fast\n' +
+    'learner, hardworking, and self-organized, driven by a\n' +
+    'passion for continuous growth and learning.',
   photo: mainPhoto,
 };
 export const technologiesList = [
