@@ -5,7 +5,8 @@
 .portfolio__list {
   display: flex;
   flex-wrap: wrap;
-  gap: 3rem;
+  justify-content: space-between;
+  row-gap: 5rem;
   animation: fadeIn 1s ease-out;
 }
 
