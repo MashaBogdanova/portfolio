@@ -3,6 +3,7 @@ import minesweeperGame from '../../public/projejects-screenshots/minesweeper-gam
 import socialNetwork from '../../public/projejects-screenshots/social-network.png';
 import inMemories from '../../public/projejects-screenshots/in-memories.png';
 import solimare from '../../public/projejects-screenshots/solimare.png';
+import historicalDates from '../../public/projejects-screenshots/historical-dates.png';
 import shelter from '../../public/projejects-screenshots/shelter.png';
 import planner from '../../public/projejects-screenshots/planer-5d.png';
 import graphiql from '../../public/projejects-screenshots/graphiql.png';
@@ -22,7 +23,8 @@ import mainPhoto from '../../public/main-photo.jpg';
 export const mainInfo = {
   name: 'MARIA BOGDANOVA',
   speciality: 'Frontend Software Engineer',
-  summary: 'I’m a proactive frontend developer with expertise in\n' +
+  summary:
+    'I’m a proactive frontend developer with expertise in\n' +
     'JavaScript, React, Redux, Next.js, and TypeScript.\n' +
     'Experienced in testing, I’m dedicated to writing highquality code. I enjoy working in collaborative teams and\n' +
     'have experience in teamwork and mentorship. I’m a fast\n' +
@@ -32,7 +34,7 @@ export const mainInfo = {
 };
 export const technologiesList = [
   {
-    title: 'NextJS',
+    title: 'Next.js',
     link: 'https://nextjs.org/',
     icon: next,
   },
@@ -93,9 +95,8 @@ export const contactsList = [
 export const portfolio = [
   {
     title: 'Grota Solna Solimare',
-    description:
-      'Website for Warsaw SPA center',
-    technologies: ['NextJS', 'TypeScript', 'Sass', 'ESLint', 'Prettier'],
+    description: 'Website for Warsaw SPA center',
+    technologies: ['Next.js', 'TypeScript', 'SCSS', 'ESLint', 'Prettier'],
     picture: solimare,
     deployLink: 'https://solimare.pl/',
     codeLink: 'https://github.com/MashaBogdanova/solimare',
@@ -106,9 +107,9 @@ export const portfolio = [
       'GraphQL playground with additional features such as authentication, authorization, and the ability to work with\n' +
       'any user-specified open GraphQL endpoint',
     technologies: [
-      'NextJS',
+      'Next.js',
       'TypeScript',
-      'Sass',
+      'SCSS',
       'GraphQL',
       'Firebase',
       'Vitest',
@@ -121,7 +122,8 @@ export const portfolio = [
     picture: graphiql,
     deployLink: 'https://graphiql-editor-dev.netlify.app',
     codeLink: 'https://github.com/MashaBogdanova/graphiql',
-    figmaLink: 'https://www.figma.com/file/scpWoZcFi4iT7i5eCBK0T8/GraphiQL?type=design&mode=design'
+    figmaLink:
+      'https://www.figma.com/file/scpWoZcFi4iT7i5eCBK0T8/GraphiQL?type=design&mode=design',
   },
   {
     title: 'E-commerce store',
@@ -132,7 +134,7 @@ export const portfolio = [
       'React JS',
       'Redux Toolkit',
       'TypeScript',
-      'Sass',
+      'SCSS',
       'Ant Design',
       'Commercetools',
       'Jest',
@@ -149,7 +151,7 @@ export const portfolio = [
     title: 'CSS Selectors Game',
     description:
       'CSS training game on pure JS. Player can set a level of difficulty, track and reset his progress',
-    technologies: ['HTML5', 'Sass', 'TypeScript', 'Webpack', 'Jest', 'ESLint'],
+    technologies: ['HTML5', 'SCSS', 'TypeScript', 'Webpack', 'Jest', 'ESLint'],
     picture: cssSelectorsGame,
     deployLink:
       'https://rolling-scopes-school.github.io/mashabogdanova-JSFE2023Q1/css-selectors/dist/',
@@ -161,7 +163,7 @@ export const portfolio = [
     description:
       'Legendary game on pure JS. Player can set different levels of difficulty, ' +
       'view previous results, including the number of moves and the time taken',
-    technologies: ['HTML5', 'Sass', 'JavaScript', 'Webpack'],
+    technologies: ['HTML5', 'SCSS', 'JavaScript', 'Webpack'],
     picture: minesweeperGame,
     deployLink:
       'https://rolling-scopes-school.github.io/mashabogdanova-JSFE2023Q1/minesweeper/',
@@ -186,6 +188,23 @@ export const portfolio = [
     codeLink: 'https://github.com/MashaBogdanova/way-of-samuraj-project',
   },
   {
+    title: 'Historical dates',
+    description: 'Pixel Perfect landing with animated features (for a 1920px wide screen)',
+    technologies: [
+      'Next.js',
+      'TypeScript',
+      'SCSS',
+      'Swiper',
+      'Pixel Perfect',
+      'ESLint',
+      'Prettier',
+    ],
+    picture: historicalDates,
+    deployLink: 'https://historicaldates.vercel.app/',
+    codeLink: 'https://github.com/MashaBogdanova/historical-dates',
+    figmaLink: 'https://www.figma.com/design/lEt0s4WYcdkhqrWgf3PnhO/historical-dates?t=plS9pn7NV2JVMF2I-0'
+  },
+  {
     title: 'Shelter',
     description: 'Pixel Perfect adaptive landing',
     technologies: [
@@ -201,14 +220,15 @@ export const portfolio = [
       'https://cheery-queijadas-ccf690.netlify.app/shelter/src/sass/pages/main/#',
     codeLink:
       'https://github.com/MashaBogdanova/pet-projects/tree/shelter-part3/',
-    figmaLink: 'https://www.figma.com/file/Yk6EnbY63FyG2PJTFkJDMh/shelter?type=design&node-id=94-43&mode=design'
+    figmaLink:
+      'https://www.figma.com/file/Yk6EnbY63FyG2PJTFkJDMh/shelter?type=design&node-id=94-43&mode=design',
   },
   {
     title: 'Planner-5D',
-    description: 'Pixel Perfect landing with Sass',
+    description: 'Pixel Perfect landing with SCSS',
     technologies: [
       'HTML5',
-      'Sass',
+      'SCSS',
       'Pixel Perfect',
       'ESLint',
       'Prettier',
